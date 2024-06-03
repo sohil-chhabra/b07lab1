@@ -136,8 +136,6 @@ public class Polynomial{
 	 
 	public Polynomial multiply(Polynomial toMultiply){
 		Polynomial result = null;
-		Arrays.sort(this.coeff);
-		Arrays.sort(this.exp);
 		for(int i = 0; i < toMultiply.coeff.length; i++){
 			double[] inter_coeff = new double[this.coeff.length];
 			int[] inter_exp = new int[this.exp.length];
