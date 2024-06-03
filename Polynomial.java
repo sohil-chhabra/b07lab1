@@ -60,8 +60,6 @@ public class Polynomial{
 		if(poly == null){
 			return this;
 		}
-		Arrays.sort(this.coeff);
-		Arrays.sort(this.exp);
 		int i = 0;
 		int j = 0;
 		int current = 0;
